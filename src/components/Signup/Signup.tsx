@@ -17,7 +17,7 @@ const Signup = () => {
         <div className="Signup_detail">
           <div className="Already_account">
             Already have an account?
-            <a href="" className="login_account">
+            <a href="/" className="login_account">
               Log in
             </a>
           </div>

@@ -20,8 +20,8 @@ const Loginpage = () => {
           </a>
           <div className="No_account">
             No account?
-            <a href="" className="create_one">
-              Create one
+            <a href="/Signup" className="create_one">
+              Signup
             </a>
           </div>
         </div>
