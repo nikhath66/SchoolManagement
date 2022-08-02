@@ -14,10 +14,16 @@ const Loginpage = () => {
           className="user_password"
         />
         <button className="login_btn">Log in</button>
-        <div>Log in with SAML SSO</div>
-        <div>Forgot password?</div>
-        <div>
-          No account? <a href="">Create one</a>
+        <div className="login_detail">
+          <a href="" className="forgot_pass">
+            Forgot password?
+          </a>
+          <div className="No_account">
+            No account?
+            <a href="" className="create_one">
+              Create one
+            </a>
+          </div>
         </div>
       </form>
     </div>

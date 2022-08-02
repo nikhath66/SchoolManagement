@@ -2,7 +2,5 @@
     "files.autoSave": "afterDelay",
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true,
-    "files.exclude": {
-        "**/.git": false
-    }
+    "search.useGlobalIgnoreFiles": true
 }
