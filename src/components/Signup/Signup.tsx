@@ -1,7 +1,6 @@
 import React from "react";
 import "./Signup.css";
 import { useState } from "react";
-import { userAuth } from "../../context/AuthContext";
 import { app, auth, firebaseAuth } from "../../Firebase/Firebase";
 import { Link } from "react-router-dom";
 import { useToast } from "@chakra-ui/react";
