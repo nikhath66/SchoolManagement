@@ -1,0 +1,45 @@
+.Forget-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.Forget-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 32px;
+  width: 100%;
+  max-width: 400px;
+}
+.Forget-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.Forget-reset-email {
+  border: 1px solid #000;
+  border-radius: 5px;
+  height: 50px;
+  color: #282828;
+  padding-left: 12px;
+  background-color: white;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.Forget-button {
+  background-color: #000;
+  border-color: #000;
+  color: #fff;
+  cursor: pointer;
+  height: 50px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.Forget-cancel {
+  margin-bottom: 16px;
+  color: #5551ff;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+}

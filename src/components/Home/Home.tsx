@@ -1,10 +1,13 @@
 import React from "react";
+import Toolbar from "./Toolbar";
+import "./Home.css";
+import HomeContent from "./HomeContent";
 
 const Home = () => {
   return (
-    <div>
-      Hello User
-      <button>Logout</button>
+    <div className="Home-page">
+      <HomeContent />
+      <Toolbar />
     </div>
   );
 };

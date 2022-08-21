@@ -24,7 +24,8 @@
   padding-right: 20px;
   font-weight: 700;
   outline: none;
-  text-align: center;
+  display: flex;
+  align-items: center;
 }
 .or {
   text-align: center;
@@ -32,7 +33,7 @@
   margin-top: 15px;
 }
 .user_email {
-  border: 3px solid #000;
+  border: 1px solid #000;
   border-radius: 5px;
   height: 50px;
   color: #282828;
@@ -40,14 +41,14 @@
   background-color: white;
   font-size: 16px;
   margin-bottom: 16px;
-  border-color: #5551ff;
 }
 .user_password {
-  border: 3px solid #000;
+  border: 1px solid #000;
   border-radius: 5px;
   height: 50px;
   color: #282828;
   padding-left: 12px;
+  background-color: white;
   font-size: 16px;
   margin-bottom: 16px;
 }
@@ -71,10 +72,13 @@
 }
 .login_account {
   text-decoration: none;
-  color: #5551ff;
   font-size: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #000;
 }
 .login_account:hover {
   text-decoration: underline;
   text-decoration-color: #5551ff;
+  color: #5551ff;
 }
